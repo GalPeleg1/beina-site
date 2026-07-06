@@ -122,17 +122,7 @@
   .principle p{font-size:14.5px;color:var(--muted)}
   .principle .mark{color:var(--vine);font-family:'JetBrains Mono',monospace;font-size:12px;display:block;margin-bottom:14px}
 
-  /* ---------- careers / contact panels ---------- */
-  .roles{margin-top:10px}
-  .role{
-    display:flex;align-items:center;justify-content:space-between;gap:16px;
-    padding:22px 4px;border-bottom:1px solid var(--line);
-    text-decoration:none;color:var(--ink);transition:padding .2s;
-  }
-  .role:hover{padding-left:10px}
-  .role .r-title{font-family:'Newsreader',serif;font-size:19px;font-weight:500}
-  .role .r-meta{font-size:13px;color:var(--muted);margin-top:3px}
-  .role .r-arrow{color:var(--faint);font-size:18px}
+  /* ---------- contact ---------- */
   .contact-line{font-family:'Newsreader',serif;font-size:clamp(22px,3vw,28px);font-weight:300;line-height:1.4}
   .contact-line a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--vine-soft);text-underline-offset:5px}
   .contact-line a:hover{text-decoration-color:var(--vine)}
@@ -162,7 +152,7 @@
       <span class="brand-name">Beina</span>
     </a>
     <div class="nav-links">
-      <a href="#careers">Careers</a>
+      <a href="#vision">Our Vision</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -194,26 +184,11 @@
     </div>
   </div>
 
-  <!-- ================= CAREERS ================= -->
-  <section id="careers">
-    <div class="wrap reveal">
-      <div class="kicker">Careers</div>
-      <h2 class="serif" style="font-weight:400;font-size:clamp(26px,3.6vw,34px);line-height:1.25;margin-bottom:14px">We are a small team building the lab every agent deserves.</h2>
-      <p style="color:var(--muted);font-size:16px;margin-bottom:26px">Systems, ML, and security people who own the whole stack and ship it to production.</p>
-      <div class="roles">
-        <a class="role" href="#contact">
-          <div><div class="r-title">Founding Engineer — Runtime</div><div class="r-meta">Systems · OS-level instrumentation · Tel Aviv</div></div>
-          <span class="r-arrow">→</span>
-        </a>
-        <a class="role" href="#contact">
-          <div><div class="r-title">Founding Engineer — Learning</div><div class="r-meta">ML · distillation &amp; evaluation · Tel Aviv</div></div>
-          <span class="r-arrow">→</span>
-        </a>
-        <a class="role" href="#contact">
-          <div><div class="r-title">Design Engineer</div><div class="r-meta">Product · the console where your lab is run · Tel Aviv</div></div>
-          <span class="r-arrow">→</span>
-        </a>
-      </div>
+  <!-- ================= OUR VISION ================= -->
+  <section id="vision">
+    <div class="wrap reveal" style="padding-top:24px;padding-bottom:24px">
+      <div class="kicker">Our Vision</div>
+      <p class="serif" style="font-weight:300;font-size:clamp(20px,2.8vw,27px);line-height:1.65;color:var(--ink);max-width:620px">Intelligence is no longer the bottleneck. The frontier models are already smart enough for real work — what separates a demo from a capability is a discipline that, until now, only the top labs could run. We're bringing that discipline to production agents, so yours doesn't just get cheaper or more reliable — it beats the frontier at your job, on your data. <em>Every company gets its own lab.</em></p>
     </div>
   </section>
 
